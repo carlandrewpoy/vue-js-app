@@ -1,0 +1,148 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-1 {
+  width: 860px;
+}
+.logo {
+  width: 260px;
+}
+
+.search {
+  height: 20px;
+  border: none;
+  border-radius: 8px;
+  text-indent: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  -moz-box-shadow: inset 0px 0px 6px #ccc;
+  -webkit-box-shadow: inset 0px 1px 6px #ccc;
+  box-shadow: inset 0px 1px 6px #ccc;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.search-box {
+  padding: 5px 9px 4px 9px;
+  margin-right: 10px;
+  border: 1px solid rgb(242, 242, 242);
+}
+
+.search-btn {
+  border: 1px solid gray;
+  width: 80px;
+  height: 30px;
+  background-color: rgb(198, 198, 198);
+  border-radius: 3px;
+}
+.search-btn:hover {
+  background-color: #ccc;
+}
+.search-btn:active {
+  background-color: rgb(216, 216, 216);
+}
+
+.search-btn img {
+  width: 20px;
+}
+
+.row2 {
+  font-size: 13px;
+  
+}
+.row2-div {
+  color: #999999;
+}
+
+.row3 {
+  display: flex;
+  align-items: center;
+  background-color: #329900;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 15px;
+  color: #ffffff;
+  width: 97%;
+}
+
+.row3 a {
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.row4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row4 img {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section img {
+  width: 100%;
+}
+.ham {
+  background-color: white;
+  border: none;
+  padding: 0;
+  opacity: .6;
+}
+.ham:hover {
+  opacity: .9;
+}
+.ham:active {
+  opacity: 1;
+}
+.ham img {
+  width: 30px;
+}
+.list-title {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 27px;
+}
+.list-description {
+  color: #666666;
+  font-size: 14px;
+}
+.list-description a {
+  color: #666666;
+}
+@media (max-width:767px) {
+.custom-border-sm
+  {
+    border:0px solid !important
+  }
+}
+@media (max-width:990px) {
+.custom-border-md
+  {
+    border:0px solid !important
+  }
+}
+.line {
+  border-right: 1px solid rgb(206, 206, 206);
+}
+.hover:hover {
+  color: #329900;
+}
+.row2-div a:hover {
+  color: #329900;
+}
+.row2-div2 a:hover {
+  color: #329900;
+}
+.row3 a:hover {
+  color: rgb(255, 208, 0);
+}
